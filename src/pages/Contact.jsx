@@ -4,6 +4,8 @@ import Footer from "../Components/Footer";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import { FaArrowRight } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -41,6 +43,8 @@ const Contact = () => {
    <label className="block text-white text-[16px] inter font-normal mb-2">Write Your Message Here</label>
    <textarea type="text" placeholder="your message" className="w-[512px] h-[200px]  rounded-md pl-2 pt-2 text-[#667085] text-[16px] inter font-normal "/>
    </div>
+
+   <button className="px-10 py-5 bg-[#F90629] rounded-2xl inter font-normal text-xl text-white">Leave us a Message <FaArrowRight className="inline"/></button>
 </div>
 
 
@@ -52,6 +56,33 @@ const Contact = () => {
    
   </form>
 </div>
+
+{/*-contact info section start---*/}
+<div className="flex justify-between pt-20y
+ items-center">
+<div>
+  <h3 className="inter font-normal text-xl text-white pb-5">Contact Info</h3>
+  <h2 className="inter font-normal text-6xl text-white leading-tight pb-5">We are always<br/> happy to assist you</h2>
+
+</div>
+<div className="w-[300px]">
+  <h3 className="inter font-normal text-xl text-white pb-1">Email Address</h3>
+  <hr className="w-6 pb-5"/>
+  <span className="inter font-normal text-[16px] text-white pb-5 inline-block">help@info.com</span>
+  <p>Assistance hours: <br/>
+  Monday - Friday <br/>6 am to 8 pm EST</p>
+</div>
+<div className="w-[300px]">
+
+<h3 className="inter font-normal text-xl text-white pb-1">Number</h3>
+  <hr className="w-6 pb-5"/>
+  <span className="inter font-normal text-[16px] text-white pb-5 inline-block"><Link to='+919836365640'>+91 9836365640</Link></span>
+  <p>Assistance hours: <br/>
+  Monday - Friday<br/> 6 am to 8 pm EST</p>
+</div>
+</div>
+
+{/*-contact info section end---*/}
 
 </div>
       <Footer />

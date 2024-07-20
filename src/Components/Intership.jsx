@@ -10,7 +10,7 @@ const Intership = () => {
 <div className='px-[10%] m-auto max-w-[100%]'>
         
     <div className='md:flex md:justify-between md:gap-1 py-[80px]'>
-<div><img src={inter}alt=''></img></div>
+<div><img src={inter}alt='' className='transition-transform duration-200 hover:scale-x-100'></img></div>
 <div className='md:w-[700px] pt-10'>
     
     <h2 className='poppins font-semibold md:text-[60px] text-4xl text-white pr-1'>Wanna Do <span className='poppins font-semibold md:text-[60px] text-4xl text-[#FF002A]'>Intership</span></h2>

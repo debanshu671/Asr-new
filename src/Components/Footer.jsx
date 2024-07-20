@@ -36,28 +36,29 @@ const Footer = () => {
 
               <div className='flex justify-between py-20'>
 
-              <div className="w-[420px] flex justify-between gap-5">
-            <div className="flex items-center  bg-white rounded pl-7 ">
+              <div className="w-[540px] flex justify-between items-center">
+            <div className="flex items-center  bg-white rounded pl-4 ">
               
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-[350px] h-[60px]  bg-transparent  border border-none text-[#667085]"
+                className="w-[350px] h-[50px]  bg-transparent  border border-none text-[#667085] focus:outline-none"
               />
             </div>
-            <div className='bg-[#FF002A] px-[60px] py-3 rounded '>
-            <Link className=''>Contact us</Link>
+            <div className='bg-[#FF002A] px-[45px] py-[13px] rounded inline-block'>
+            <Link className='block'>Contact us</Link>
             
             
             </div>
           </div>
+         
 
           <div className="flex justify-between pt-[50px] w-[245px] pr-12 text-[#98A2B3]">
-            <FaFacebookF />
-            <FaTwitter />
-            <FaInstagram />
-            <FaLinkedinIn />
-            <FaYoutube />
+            <FaFacebookF className="transition-transform duration-200 hover:scale-150 hover:text-[#FF002A] "/>
+            <FaTwitter className="transition-transform duration-200 hover:scale-150 hover:text-[#FF002A] "/>
+            <FaInstagram className="transition-transform duration-200 hover:scale-150 hover:text-[#FF002A] "/>
+            <FaLinkedinIn className="transition-transform duration-200 hover:scale-150 hover:text-[#FF002A] "/>
+            <FaYoutube className="transition-transform duration-200 hover:scale-150 hover:text-[#FF002A] "/>
           </div>
 
 

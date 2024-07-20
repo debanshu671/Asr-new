@@ -26,16 +26,16 @@ const Internship = () => {
           <h2 className="inter text-white md:text-6xl text-3xl font-bold md:leading-normal leading-tight pb-5">Paid  Internship <br/>Offer for everyone!</h2>
           <p className="poppins text-white md:text-[16px] text-xs font-normal leading-normal pb-10">Learning is the compass guiding us towards a brighter tomorrow. Embrace curiosity as your ally, for knowledge is the cornerstone of progress. Seek wisdom in the smallest of lessons, for therein lies the seed of transformation. Let each day be a canvas, painted with the colors of discovery. In the journey of learning, the path to a better tomorrow unfolds, shaped by the insights gained today.</p>
 
-          <div className="w-[420px] flex justify-between gap-5">
-            <div className="flex items-center  bg-white rounded pl-7 ">
+          <div className="w-[545px] flex justify-between gap-5 items-center">
+            <div className="flex items-center  bg-white rounded pl-5 ">
               
               <input
                 type="email"
                 placeholder="Enter your email"
-                className="w-[350px] h-[60px]  bg-transparent  border border-none text-[#667085]"
+                className="w-[350px] h-[47px]  bg-transparent  border border-none text-[#667085]"
               />
             </div>
-            <div className='bg-[#FF002A] px-[60px] py-3 rounded '>
+            <div className='bg-[#FF002A] px-[40px] py-3 rounded '>
             <Link className=''>Contact us</Link>
             
             
