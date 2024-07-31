@@ -6,7 +6,7 @@ const Intership = () => {
   return (
     <>
       <div className="bg-[#101022]">
-        <div className="px-[10%] m-auto max-w-[100%]">
+        <div className="px-[10%] m-auto">
           <div className="md:flex md:justify-between md:gap-1 py-[80px]">
             <div>
               <img

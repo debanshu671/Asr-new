@@ -13,6 +13,7 @@ import Testicard from "../objects/Testimonial";
 import Latestwork from "../objects/Latestwork";
 import TestiMonial from "../Components/TestiMonial";
 
+
 console.log(Latestwork[0].cardtitel);
 
 const Home = () => {
@@ -30,15 +31,13 @@ const Home = () => {
     );
   }
 
-  {/*- function for latest work section end---*/ }
-    
- 
+  {
+    /*- function for latest work section end---*/
+  }
 
   {
     /*- function for servise section---*/
   }
-
-
 
   function Scardsec(val) {
     return (
@@ -54,7 +53,9 @@ const Home = () => {
     /*- function for servise section end---*/
   }
 
-  {/*------testimonial section start---*/}
+  {
+    /*------testimonial section start---*/
+  }
 
   function testimonial(val) {
     return (
@@ -62,12 +63,14 @@ const Home = () => {
         testimg={val.testimg}
         testiText={val.text}
         client={val.clientname}
-        post= {val.degignation}
+        post={val.degignation}
       />
     );
   }
 
-  {/*------testimonial section end---*/}
+  {
+    /*------testimonial section end---*/
+  }
   return (
     <div>
       <Header />
@@ -131,20 +134,22 @@ const Home = () => {
       <Ourstory />
       <Countup />
 
-
       {/*-----TESTIMONIALS section start-----*/}
       <div className="px-[10%]">
         <div className="w-[250px] flex gap-2">
           <span className="poppins font-semibold text-[#F90629] leading-normal tracking-widest text-[17px] pb-3">
-          TESTIMONIALS
+            TESTIMONIALS
           </span>
           <img src={star} alt="" className="w-5 h-5" />
         </div>
         <h2 className="poppins font-bold text-white leading-normal text-4xl pb-2">
-        Our clients Says
+          Our clients Says
         </h2>
         <p className="poppins font-medium text-white text-[17px]">
-        Our experience with this service has been exceptional. The team is professional, attentive, and consistently delivers high-quality work. We highly recommend them for anyone seeking reliable and efficient solutions. They've exceeded our expectations every step of the way.
+          Our experience with this service has been exceptional. The team is
+          professional, attentive, and consistently delivers high-quality work.
+          We highly recommend them for anyone seeking reliable and efficient
+          solutions. They've exceeded our expectations every step of the way.
         </p>
       </div>
 

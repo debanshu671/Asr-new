@@ -19,16 +19,16 @@ const Servise = () => {
 
       <div className="px-[10%] py-10">
         {/*-top section start----*/}
-        <div className="flex justify-between">
-          <div className="relative w-[460px]">
+        <div className="md:flex md:justify-between">
+          <div className="relative md:w-[460px]">
             <div className="">
-              <img src={eclips} alt="" className="absolute w-[330px]" />
+              <img src={eclips} alt="" className="md:absolute md:w-[330px] hidden" />
             </div>
-            <h2 className="poppins font-bold text-7xl text-white absolute leading-tight w-full">
+            <h2 className="poppins font-bold md:text-7xl text-4xl text-white md:absolute leading-tight w-full">
               Services
               <br /> We Provide
             </h2>
-            <p className="poppins font-normal text-[18px] text-white pt-[230px] pb-10">
+            <p className="poppins font-normal text-[18px] text-white md:pt-[230px] pb-10 pt-5">
               We provide comprehensive web app development and design solutions
               tailored to your specific needs.
             </p>
@@ -38,15 +38,15 @@ const Servise = () => {
             <Link className="inter text-[18px] text-white">Contact Us</Link>
           </div>
           <div>
-            <img src={servisebg} alt="" />
+            <img src={servisebg} alt=""  className="pt-10"/>
           </div>
         </div>
         {/*-top section end----*/}
 
         {/*-dev section section start----*/}
 
-        <div className="flex justify-between py-20">
-          <div>
+        <div className="md:flex md:justify-between md:py-20 ">
+          <div className="">
             <h2 className="poppins text-semibold text-white text-4xl pb-5">
               Top
               <br />

@@ -24,22 +24,22 @@ const Ourstory = () => {
             </p>
           </div>
 
-          <div className="flex justify-between gap-10">
-            <div className="w-[30%]">
+          <div className="md:flex md:justify-between md:gap-10">
+            <div className="md:w-[30%]">
               <img src={story1} alt="" className="w-full pt-14" />
             </div>
-            <div className="w-[60%] relative">
+            <div className="md:w-[60%] relative">
               <div className="">
-                <img src={story2} alt="" className="pl-10" />
+                <img src={story2} alt="" className="md:pl-10 pt-10" />
                 <img
                   src={story3}
                   alt=""
-                  className="absolute top-[-7%] right-[50%]"
+                  className="md:absolute md:top-[-7%] md:right-[50%] hidden md:block"
                 />
                 <img
                   src={story4}
                   alt=""
-                  className="absolute top-[20%] right-0"
+                  className="md:absolute md:top-[20%] md:right-0 hidden md:block"
                 />
               </div>
               <p className="poppins text-white opacity-[70%] font-normal text-xl pr-5 pt-10">

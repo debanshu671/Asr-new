@@ -1,18 +1,22 @@
+
+import img1 from '../assets/home/img1.png';
+import img2 from '../assets/home/img2.png';
+import img3 from '../assets/home/img3.png';
 const Testicard =[
     {
-        testimg:"../../public/images/img1.png",
+        testimg:img1,
         text:"“You made it so simple. My new site is so much faster and easier to work with than my old site.”",
         clientname:"John Doe",
         degignation:"Graphic Designer"
     },
     {
-        testimg:"../../public/images/img2.png",
+        testimg:img2,
         text:"“You made it so simple. My new site is so much faster and easier to work with than my old site.”",
         clientname:"John Doe",
         degignation:"Graphic Designer"
     },
     {
-        testimg:"../../public/images/img3.png",
+        testimg:img3,
         text:"“You made it so simple. My new site is so much faster and easier to work with than my old site.”",
         clientname:"John Doe",
         degignation:"Graphic Designer"

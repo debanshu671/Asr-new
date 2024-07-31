@@ -8,7 +8,7 @@ const Header = () => {
   return (
     <>
       <header className="flex justify-between px-10 py-6 md:border md:border-black md:border-b-2 items-center">
-        <div className="w-[200px]">
+        <div className="md:w-[200px] w-[150px]">
           <img src={Logo} alt="" />
         </div>
         <nav className="md:block hidden">
@@ -34,7 +34,7 @@ const Header = () => {
           </ul>
         </nav>
         <div className="bg-[#F90629] md:px-10 px-5 md:py-3 py-2 rounded">
-          <Link className="gap-2 flex items-center ">
+          <Link className="gap-2 flex items-center  text-xs md:text-xl">
             Let’s Talk <MdArrowOutward className="inline" />
           </Link>
         </div>
