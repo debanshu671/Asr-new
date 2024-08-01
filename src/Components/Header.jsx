@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink,Link} from "react-router-dom";
 import { MdArrowOutward } from "react-icons/md";
 import Home from "../pages/Home";
 import Logo from "../assets/logo/logo.png";
@@ -12,28 +12,28 @@ const Header = () => {
           <img src={Logo} alt="" />
         </div>
         <nav className="md:block hidden">
-          <ul className="flex justify-between gap-10">
+          <ul className="flex justify-between gap-10 inter font-regular text-[17px] leading-normal text-white">
             <li>
-              <Link to="/">Home</Link>
+              <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <Link to="/servise">Services</Link>
+              <NavLink to="/servise">Services</NavLink>
             </li>
             <li>
-              <Link to="/portfolios">Portfolio</Link>
+              <NavLink to="/portfolios">Portfolio</NavLink>
             </li>
             <li>
-              <Link to="/testimonial">Testimonials</Link>
+              <NavLink to="/testimonial">Testimonials</NavLink>
             </li>
             <li>
-              <Link to="/internship">Internship</Link>
+              <NavLink to="/internship">Internship</NavLink>
             </li>
             <li>
-              <Link to="/contact">Contact Us</Link>
+              <NavLink to="/contact">Contact Us</NavLink>
             </li>
           </ul>
         </nav>
-        <div className="bg-[#F90629] md:px-10 px-5 md:py-3 py-2 rounded">
+        <div className="bg-[#F90629] md:px-10 px-5 md:py-3 py-2 rounded hover:translate-x-1 transition duration-500 hover:scale-125">
           <Link className="gap-2 flex items-center  text-xs md:text-xl">
             Let’s Talk <MdArrowOutward className="inline" />
           </Link>

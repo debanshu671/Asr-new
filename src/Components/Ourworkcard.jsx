@@ -3,8 +3,8 @@ import React from "react";
 const Ourworkcard = (props) => {
   return (
     <>
-      <div className="">
-        <div className="w-[425px] h-[420px] border border-white p-3">
+      <div className="px-10 md:py-10 py-5">
+        <div className="md:w-[425px] w-[344px]  border border-white p-3">
           <h2 className="pb-3 poppins font-normal text-white text-xl">
             {props.Cardtitel}
           </h2>

@@ -72,7 +72,7 @@ const Home = () => {
     /*------testimonial section end---*/
   }
   return (
-    <div>
+    <div className="bg-white w-full">
       <Header />
       <Hero />
 
@@ -80,7 +80,7 @@ const Home = () => {
 
       <div className="px-[10%] py-20">
         <div className="pb-10">
-          <div className="w-[750px]">
+          <div className="md:w-[750px] w-full">
             <div className="w-[250px] flex gap-2">
               <span className="poppins font-semibold text-[#F90629] leading-normal tracking-widest text-[17px] pb-3">
                 PORTFOLIO
@@ -100,7 +100,7 @@ const Home = () => {
           <div></div>
         </div>
 
-        <div className="flex gap-28 flex-wrap justify-center">
+        <div className="flex flex-wrap justify-center items-center">
           {Latestwork.map(card)}
         </div>
       </div>

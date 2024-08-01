@@ -1,6 +1,6 @@
 import React from "react";
 import Logo from "../assets/logo/logo.png";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
@@ -21,22 +21,22 @@ const Footer = () => {
               <nav className="md:w-[800px] m-auto pt-10 ">
                 <ul className="flex justify-between md:gap-10 gap-3 inter md:text-[#667085] text-white font-normal md:text-xl text-[9px]">
                   <li>
-                    <Link to="/">Home</Link>
+                    <NavLink to="/">Home</NavLink>
                   </li>
                   <li>
-                    <Link to="/servise">Services</Link>
+                    <NavLink to="/servise">Services</NavLink>
                   </li>
                   <li>
-                    <Link to="/portfolios">Portfolio</Link>
+                    <NavLink to="/portfolios">Portfolio</NavLink>
                   </li>
                   <li>
-                    <Link to="/testimonial">Testimonials</Link>
+                    <NavLink to="/testimonial">Testimonials</NavLink>
                   </li>
                   <li>
-                    <Link to="/internship">Internship</Link>
+                    <NavLink to="/internship">Internship</NavLink>
                   </li>
                   <li>
-                    <Link to="/contact">Contact Us</Link>
+                    <NavLink to="/contact">Contact Us</NavLink>
                   </li>
                 </ul>
               </nav>
@@ -53,13 +53,13 @@ const Footer = () => {
                     className="md:w-[350px] w-full md:h-[50px] h-[40px]  border border-none text-[#667085] focus:outline-none"
                   />
                 </div>
-                <div className="bg-[#FF002A] md:px-[45px] md:py-[13px] rounded inline-block px-5 py-3">
+                <div className="bg-[#FF002A] md:px-[45px] md:py-[13px] rounded inline-block px-5 py-3 duration-500 hover:scale-110">
                   <Link className="block">Contact us</Link>
                 </div>
               </div>
 
               <div className="flex justify-between pt-[50px] w-[245px] pr-12 text-[#98A2B3] m-auto md:m-0">
-                <FaFacebookF className="transition-transform duration-200 hover:scale-150 hover:text-[#FF002A] " />
+                <FaFacebookF className="transition-transform duration-200  hover:scale-150 hover:text-[#FF002A] " />
                 <FaTwitter className="transition-transform duration-200 hover:scale-150 hover:text-[#FF002A] " />
                 <FaInstagram className="transition-transform duration-200 hover:scale-150 hover:text-[#FF002A] " />
                 <FaLinkedinIn className="transition-transform duration-200 hover:scale-150 hover:text-[#FF002A] " />

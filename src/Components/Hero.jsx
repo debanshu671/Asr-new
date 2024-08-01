@@ -11,10 +11,11 @@ const Hero = () => {
         backgroundImage: `url(${Herobg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
+        backgroundColor:"yellow"
       }}
-      className="py-20"
+      className="py-20 w-full "
     >
-      <div className="px-[10%] m-auto max-w-[100%]">
+      <div className="px-[10%] m-auto">
         <div className="md:w-[800px] relative">
           <img
             src={Herostar}
@@ -42,8 +43,8 @@ const Hero = () => {
           </p>
         </div>
 
-        <div className="flex items-center md:mt-10 mt-5 pb-20">
-          <Link className="border border-[#F90629] md:px-8 md:py-3 px-5 py-1 rounded mr-1">
+        <div className="flex items-center md:mt-10 mt-5 pb-20 ">
+          <Link className="border border-[#F90629] md:px-8 md:py-3 px-5 py-1 rounded mr-1 hover:translate-y-2 transition">
             View work
             <MdArrowOutward className="inline pl-2 text-3xl" />
           </Link>

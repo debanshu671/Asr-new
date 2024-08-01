@@ -8,11 +8,11 @@ const Intership = () => {
       <div className="bg-[#101022]">
         <div className="px-[10%] m-auto">
           <div className="md:flex md:justify-between md:gap-1 py-[80px]">
-            <div>
+            <div className="">
               <img
                 src={inter}
                 alt=""
-                className="transition-transform duration-200 hover:scale-x-100"
+                className="duration-300 hover:scale-125"
               ></img>
             </div>
             <div className="md:w-[700px] pt-10">
@@ -46,10 +46,10 @@ const Intership = () => {
                   </p>
                 </div>
               </div>
-              <div className="md:mt-[50px] mt-7 ">
+              <div className="md:mt-[50px] mt-7 duration-500 hover:scale-110">
                 <Link
                   to={"/contact"}
-                  className="md:py-[30px] md:px-[60px] py-4 px-10  border-solid border-2 border-[#FF002A] rounded-3xl poppins font-medium md:text-[32px] text-2xl text-white inline"
+                  className="md:py-[30px] md:px-[60px] py-4 px-10  border-solid border-2 border-[#FF002A] rounded-3xl poppins font-medium md:text-[32px] text-2xl text-white inline "
                 >
                   Contact us
                 </Link>

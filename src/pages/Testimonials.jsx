@@ -1,27 +1,15 @@
-import React from 'react'
-import Header from '../Components/Header'
-import Footer from '../Components/Footer'
-
-
-
-
+import React from "react";
+import Header from "../Components/Header";
+import Footer from "../Components/Footer";
 
 const Testimonials = () => {
-
-
-
   return (
     <div>
       <Header />
-  
 
-
-    <Footer/>
-
-
-
+      <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default Testimonials;
